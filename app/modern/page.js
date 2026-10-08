@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import '../styles.css';
-import './modern.css';
 
 export default function Modern() {
   return (

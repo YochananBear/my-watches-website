@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import '../styles.css';
-import './vintage.css';
 
 export default function Vintage() {
   return (
