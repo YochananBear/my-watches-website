@@ -1,11 +1,13 @@
-export default function Home() {
+import '../styles.css'
+
+export default function Vintage() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "Arial" }}>
-      <h1>Welcome to My Website</h1>
+    <main>
+      <h1>Vintage Watches</h1>
       <nav>
         <a href="/">Home</a> | <a href="/about">About</a> | <a href="/contact">Contact</a> | <a href="/vintage">Vintage</a> | <a href="/modern">Modern</a> 
       </nav>
-      <p>This is my homepage.</p>
+      <p>This is my Homepage.</p>
     </main>
   );
 }
