@@ -1,21 +1,19 @@
 main {
-  padding: 2rem;
-  font-family: Arial;
+  padding: "2rem";
+  font-family: "Arial";
   background-color: #000000;
   color: #ffffff;
-  text-align: center;
-}
+  }
 
 h1 {
-  font-size: 2.5rem;
-  color: #ffffff;
+  font-size: "2.5rem";
+  color: #0f0f0f;
   text-align: center;
 }
 
 nav {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  text-align: center;
+  margin-top: "1rem";
+  font-size: "3rem" 
 }
 
 a {
@@ -24,5 +22,10 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline, bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
