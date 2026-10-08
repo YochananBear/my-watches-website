@@ -2,7 +2,7 @@ import Image from 'next/image';
 import '../styles.css';
 import './modern.css';
 
-export default function Vintage() {
+export default function Modern() {
   return (
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h1>Vintage Watches</h1>
