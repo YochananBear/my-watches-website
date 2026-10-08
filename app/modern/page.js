@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import '../styles.css';
+import './modern.css';
+
 export default function Vintage() {
   return (
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
