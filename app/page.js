@@ -1,7 +1,12 @@
+'use client';
+
 import Image from 'next/image';
 import './styles.css';
 
 export default function Home() {
+    const handleClick = () => {
+    alert('Button clicked!');
+  };
   return (
     <main>
       
@@ -13,6 +18,7 @@ export default function Home() {
         <Image src="/images/NamokiBuild.jpg" alt="My Namoki build on a generic balck leather band" width={300} height={300} />
         <Image src="/images/Lebem.jpg" alt="My vintage gold plated Lebem watch on a brown saffino band from strapsco" width={300} height={300} />
       </div>
+      <button onClick={handleClick}>Click me</button>
     </main>
   );
 }
