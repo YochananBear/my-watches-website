@@ -1,19 +1,19 @@
 main {
-  padding: "2rem";
-  font-family: "Arial";
+  padding: 2rem;
+  font-family: Arial;
   background-color: #000000;
   color: #ffffff;
   text-align: center;
-  }
+}
 
 h1 {
-  font-size: "2.5rem";
+  font-size: 5rem;
   color: #c5c505;
 }
 
 nav {
-  margin-top: "1rem";
-  font-size: "3rem" 
+  margin-top: 1rem;
+  font-size: 3rem;
 }
 
 a {
@@ -22,7 +22,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline, bold;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .image-grid {
