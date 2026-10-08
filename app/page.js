@@ -5,7 +5,7 @@ import './styles.css';
 
 export default function Home() {
     const handleClick = () => {
-    alert('Button clicked!');
+    alert('Good job!');
   };
   return (
     <main>
