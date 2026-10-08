@@ -58,3 +58,15 @@ a:hover {
   object-fit: contain;
   border-radius: 10px;
 }
+
+@media (max-width:480) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  nav {
+    font-size: 0.9rem;
+  }
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
