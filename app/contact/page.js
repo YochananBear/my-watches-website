@@ -1,4 +1,6 @@
-export default function Vintage() {
+import '../styles.css';
+
+export default function Contact() {
   return (
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h1>Vintage Watches</h1>
