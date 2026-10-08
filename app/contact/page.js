@@ -1,4 +1,5 @@
 import '../styles.css';
+import '.contact.css';
 
 export default function Contact() {
   return (
@@ -9,7 +10,7 @@ export default function Contact() {
       <h1>Contacts</h1>
       <p>Email me at notarealemail@fakemail.com<br />
       Call me at 1-800-668-7325<br />
-      Or leave a comment below with your name and email and we'll respond as soon as possible! </p>
+      Or leave a comment below with your name and email and we'll respond as soon as possible!<br /> </p>
 
       <form action="/comment" method="post">
         <h2>Comment</h2>
